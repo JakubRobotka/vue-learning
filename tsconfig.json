@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "incremental": true,
+      "module": "ESNext",
+      "target": "es2016",
+      "lib": ["dom", "esnext"],
+      "strict": true,
+      "strictNullChecks": false,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      // "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }],
+    },
+    "exclude": ["node_modules", "dist"]
+  }
